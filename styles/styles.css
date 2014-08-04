@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
+
+@import url(http://fonts.googleapis.com/css?family=News+Cycle);
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	color: #066
+}
+
+header{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: #636;
+	text-align: center;	
+}
+
+nav {
+	float: left;
+	position: fixed;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 17px
+}
+
+#wrap {
+	width: 850px;
+	margin: 0 auto;
+	background: #FF9;
+	padding: 5%;
+}
+
+#header {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #600;
+	text-align: center;
+}
+
+#main {
+	font-family: 'News Cycle', sans-serif;
+}
+
+#footer{
+	clear: both;
+}
+
+dt {
+	color: #636;
+}
